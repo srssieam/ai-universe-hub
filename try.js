@@ -25,7 +25,7 @@ const displayData = (items, isclicked) => {
         const cardContainer = document.getElementById('card-container');
         const card = document.createElement('div');
         card.innerHTML = `
-            <div class="card bg-base-100 shadow-xl max-h-[600px] border">
+            <div class="card bg-base-100 shadow-xl h-[500px] border">
                 <figure class="p-5"><img src="${item.image}" alt="Shoes" /></figure>
                 <div class="card-body">
                   <h2 class="card-title">Features</h2>
