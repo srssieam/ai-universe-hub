@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/ffa98f4af6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl font-semibold text-center my-8">AI Universe Hub</h1>
+        <div class="text-center">
+            <button class="btn text-white font-semibold bg-emerald-800 hover:bg-emerald-950">Sort By Date</button>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-4 lg:p-0">
+        <div id="card-container" class="grid md:grid-cols-2 lg:grid-cols-3 mt-8 gap-7">
+        
+        </div>
+    </main>
+    <div class="text-center my-7">
+        <button id="seeMore" class="btn text-white font-semibold bg-emerald-800 hover:bg-emerald-950">See more</button>
+    </div>
+
+
+    <dialog id="show_details" class="modal modal-bottom sm:modal-middle ">
+        <div id="modal-container">
+        </div>
+    </dialog>
+    
+    <script src="try.js"></script>
+</body>
+</html>
